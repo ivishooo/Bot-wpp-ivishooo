@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to BOT-WPP-IVISHOOO 👋</h1>
+<h1 align="center">Welcome to Ivishooo stickers 👋</h1>
 <div align="center">
   <p>
     <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
@@ -17,6 +17,5 @@ yarn dev
 
 👤 **Ivan Otero**
 
-* Github: [@ivishooo](https://github.com/ivishooo)
+* Github: [@IVISHOOO](https://github.com/ivishooo)
 * LinkedIn: [@IvanOtero](https://www.linkedin.com/in/ivan-otero/)
-

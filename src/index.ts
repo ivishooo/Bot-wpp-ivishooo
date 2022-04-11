@@ -6,9 +6,8 @@ create({
 
 function start(client: Client) {
   client.onMessage(async message => {
-
-    // SEND VIDEO AND GIF AS STICKER
-    if(message.text == "!labura"){
+    if(message.text === "!labura"){
+      // SEND VIDEO AND GIF AS STICKER
       if (message.type === 'video' && !message.isGroupMsg) {
         const mediaData = await decryptMedia(message);
         const imageBase64 = `data:${message.mimetype};base64,${mediaData.toString(
@@ -19,8 +18,8 @@ function start(client: Client) {
           imageBase64,
           {},
           {
-            author: 'IVISHOOO BOT',
-            pack: 'EL BOT DE IVISHOOO',
+            author: 'Ivishooo sticker',
+            pack: 'Laburando',
             keepScale: true,
           }
         );
@@ -37,8 +36,8 @@ function start(client: Client) {
           message.sender.id,
           imageBase64,
           {
-            author: 'IVISHOOO BOT',
-            pack: 'EL BOT DE IVISHOOO',
+            author: 'Ivishooo sticker',
+            pack: 'Laburando',
             keepScale: true
           }
         );
@@ -57,8 +56,8 @@ function start(client: Client) {
             imageBase64,
             {},
             {
-              author: 'IVISHOOO BOT',
-            pack: 'EL BOT DE IVISHOOO',
+              author: 'Ivishooo sticker',
+              pack: 'Laburando',
               keepScale: true
             }
           );
@@ -74,9 +73,9 @@ function start(client: Client) {
             message.from,
             imageBase64,
             {
-              author: 'IVISHOOO BOT',
-              pack: 'EL BOT DE IVISHOOO',
-              keepScale: true,
+              author: 'Ivishooo sticker',
+              pack: 'Laburando',
+              keepScale: true
             }
           );
           console.log('RESPONSE IMAGE GROUP', response);
