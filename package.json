@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "start": " yarn dev"
   },
   "devDependencies": {
     "nodemon": "^2.0.13",
