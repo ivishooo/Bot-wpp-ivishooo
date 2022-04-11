@@ -23,7 +23,6 @@ function start(client: Client) {
             keepScale: true,
           }
         );
-        console.log('RESPONSE VIDEO', response);
       }
 
       // SEND IMAGE AS STICKER
@@ -41,7 +40,6 @@ function start(client: Client) {
             keepScale: true
           }
         );
-        console.log('RESPONSE PRIVATE MESSAGE', response);
       }
 
       // CHECK IF MESSAGE IS A GROUP MESSAGE
@@ -61,7 +59,6 @@ function start(client: Client) {
               keepScale: true
             }
           );
-          console.log('RESPONSE VIDEO', response);
         }
 
         if (message.mimetype && message.type !== 'video' && message.type !== 'sticker') {
@@ -78,7 +75,6 @@ function start(client: Client) {
               keepScale: true
             }
           );
-          console.log('RESPONSE IMAGE GROUP', response);
         }
       }
     }
