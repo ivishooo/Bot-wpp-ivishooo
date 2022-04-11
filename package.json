@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "dev",
     "test": "jest",
     "dev": "ts-node src/index.ts"
   },
