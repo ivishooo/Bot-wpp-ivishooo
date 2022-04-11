@@ -10,6 +10,15 @@
 ## Install
 
 ```sh
+npm install
+```
+
+```sh
+npm install yarn
+```
+## Launch
+
+```sh
 yarn dev
 ```
 
