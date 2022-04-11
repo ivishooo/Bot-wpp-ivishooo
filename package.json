@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "dev",
     "test": "jest",
     "dev": "ts-node src/index.ts"
   },
