@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "yarn dev",
     "dev": "ts-node src/index.ts"
   },
   "devDependencies": {
